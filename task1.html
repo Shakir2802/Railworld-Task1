@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar and Image carousal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hamstyles.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="brand-title">Ham Burgers</div>
+        <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links" id="navbar-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#browse">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <button class="navbar-button">Sign Up</button>
+    </nav>
+
+    
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="ham 2.jpg" alt="Image 1" class="carousel-image">
+            <img src="ham 3.jpeg" alt="Image 2" class="carousel-image">
+            <img src="ham4.jpeg" alt="Image 3" class="carousel-image">
+        </div>
+    </div>
+
+    <script src="scriptham.js"></script>
+</body>
+</html>
